@@ -39,7 +39,7 @@ public class ChannelActivity extends AppCompatActivity {
             items.add(entity);
         }
         final List<ChannelEntity> otherItems = new ArrayList<>();
-        for (int i = 0; i < 18; i++) {
+        for (int i = 0; i < 20; i++) {
             ChannelEntity entity = new ChannelEntity();
             entity.setName("其他" + i);
             otherItems.add(entity);

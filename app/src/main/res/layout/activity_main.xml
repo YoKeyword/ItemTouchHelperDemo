@@ -7,13 +7,15 @@
 
    <Button
        android:id="@+id/btn_drag"
+       android:layout_marginTop="32dp"
        android:layout_width="match_parent"
-       android:text="拖拽Demo"
-       android:layout_height="50dp"/>
+       android:text="简单拖拽Demo"
+       android:layout_height="56dp"/>
 
     <Button
         android:id="@+id/btn_channl"
         android:layout_width="match_parent"
         android:text="排序增删Demo"
-        android:layout_height="50dp"/>
+        android:layout_marginTop="16dp"
+        android:layout_height="56dp"/>
 </LinearLayout>
